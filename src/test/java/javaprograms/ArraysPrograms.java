@@ -16,6 +16,7 @@ public class ArraysPrograms {
         Integer[] array = {0, 1, 3, 0, 7, 9, 0};
         List<Integer> list = new ArrayList<>(Arrays.asList(array));
         int noOfZeros = 0;
+        int sudoVar;
         int origSize = list.size();
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == 0) {
